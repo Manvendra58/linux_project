@@ -1,0 +1,5 @@
+) nano  - edit text files in terminal
+) zip   - compress files into a zip archive
+EOF
+
+history | tail -n 5 | sed 's/^ *[0-9]\+ *//' > log.txt
